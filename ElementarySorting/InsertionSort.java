@@ -23,15 +23,25 @@ public class InsertionSort {
 
     public static void sort(int [] arr){
         int n = arr.length;
-        for(int i=0;i<n-1;i++){
+        for(int i=0;i<n;i++){
             int temp = arr[i];
             int j = i-1;
             while(j>=0 && temp<arr[j]){
-                arr[i]=arr[j];
+                arr[j+1]=arr[j]; //j+1 cannot be i here, because when while runs second time, j != i-1 anymore, the relations 
                 j--;
             }
+            arr[j+1] = temp;
         }
 
+    }
+
+    public static void main(String[] args){
+        int [] arr = {4,3,2};
+        InsertionSort.sort(arr);
+        for (int i : arr) 
+        {
+            System.out.println(i);
+        }
     }
 
 }
