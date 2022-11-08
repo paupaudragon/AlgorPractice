@@ -1,6 +1,6 @@
 package ElementarySorting;
 
-class Solution {
+class StockII {
     public int maxProfit(int[] prices) {
         
         //this question is only asking to return the biggest profit not when to sell and buy. 
