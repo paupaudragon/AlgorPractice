@@ -1,4 +1,4 @@
-package ElementarySorting.easy.src;
+
 class Solution {
     public int removeDuplicates(int[] nums) {
         int j = 0;
