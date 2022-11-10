@@ -11,7 +11,7 @@ public class SingleNumber {
     //2. a^b^b = b^a^b = a
     public int singleNumber(int[] nums) {
         int result =0;
-        Arrays.sort(nums);
+        Arrays.sort(nums);//quicksort
         for(int i = 0; i < nums.length; i++){
             result ^= nums[i];
         }
