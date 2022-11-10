@@ -1,4 +1,4 @@
-package ElementarySorting;
+package ElementarySorting.easy.src;
 public  class BinarySearch
 {
     //constructor

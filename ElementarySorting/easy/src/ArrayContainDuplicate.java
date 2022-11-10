@@ -1,4 +1,4 @@
-package ElementarySorting;
+package ElementarySorting.easy.src;
 
 import java.util.HashSet;
 import java.util.Set;

@@ -1,4 +1,4 @@
-package ElementarySorting;
+package ElementarySorting.easy.src;
 
 class StockII {
     public int maxProfit(int[] prices) {

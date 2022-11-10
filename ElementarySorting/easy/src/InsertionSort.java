@@ -1,4 +1,4 @@
-package ElementarySorting;
+package ElementarySorting.easy.src;
 
 /**
  * This is class sorts(ascendent) an integer array by insertion sort. 
